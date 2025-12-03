@@ -42,6 +42,10 @@ def add_event(title, date, time):
 
 @dp.message(F.chat.id == GROUP_A)
 async def handle_event_input(message: Message):
+    if not message.text:
+        await message.reply("Неверный формат: пришлите текстовое сообщение с событием.")
+        return
+        
     text = message.text.strip()
     try:
         lines = text.split("\n")
