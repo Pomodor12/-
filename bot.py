@@ -6,7 +6,7 @@ from aiogram.filters import Command
 import sqlite3
 from datetime import datetime, timedelta
 
-TOKEN = 7999077800:AAGAlfz6ho1xAP2spR8k_18rGy4CPdWRo3k7999077800:AAGAlfz6ho1xAP2spR8k_18rGy4CPdWRo3k
+TOKEN = "7999077800:AAGAlfz6ho1xAP2spR8k_18rGy4CPdWRo3k7999077800:AAGAlfz6ho1xAP2spR8k_18rGy4CPdWRo3"
 
 GROUP_A = -5012773570
 
